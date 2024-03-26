@@ -98,32 +98,59 @@ public class Main {
 //        array[4] = 8;
 //        System.out.println(array[2]);
 
-        System.out.println("Кундун санын жаз: ");
-        int day = new Scanner(System.in).nextInt();
-        int jyl = day / 365;
-        int jyl2 = day - (jyl * 365);
-        int ai = jyl2 / 30;
-        int kun = jyl2 -(30 * ai);
+//        System.out.println("Кундун санын жаз: ");
+//        int day = new Scanner(System.in).nextInt();
+//        int jyl = day / 365;
+//        int jyl2 = day - (jyl * 365);
+//        int ai = jyl2 / 30;
+//        int kun = jyl2 -(30 * ai);
+//
+//        System.out.println("Жыл: " + jyl + "\nАй: " + ai +"\nКун: " + kun);
+//
+//        Scanner sc = new Scanner(System.in);
+//
+//        System.out.println("Биринчи санды жаз: ");
+//        double sun = sc.nextDouble();
+//        System.out.println("Экинчи санды жаз: ");
+//        double sun2 = sc.nextDouble();
+//        System.out.println("Учунчу санды жаз: ");
+//        double sun3 = sc.nextDouble();
+//        System.out.println("Жыйынтыгы: ");
+//        double result = sun + sun2 + sun3;
+//        System.out.println(sun + " + " + sun2 + " + " + sun3 + " = " + result);
+//        double result2 = sun * sun2 * sun3;
+//        System.out.println(sun + " * " + sun2 + " * " + sun3 + " = " + result2 );
+//        double result4 = ((sun + sun2 + sun3)/3);
+//        System.out.println( "(" + (sun + " + " + sun2 + " + " + sun3) + " )/3" + " = " + result4);
 
-        System.out.println("Жыл: " + jyl + "\nАй: " + ai +"\nКун: " + kun);
 
         Scanner sc = new Scanner(System.in);
+        Random ran = new Random();
+        int number  = ran.nextInt(1,5);
+        int number2 = ran.nextInt(1, 5);
+        int number3 = ran.nextInt(1, 5);
+        int summa = (number+number2+number3) / 3;
 
-        System.out.println("Биринчи санды жаз: ");
-        double sun = sc.nextDouble();
-        System.out.println("Экинчи санды жаз: ");
-        double sun2 = sc.nextDouble();
-        System.out.println("Учунчу санды жаз: ");
-        double sun3 = sc.nextDouble();
-        System.out.println("Жыйынтыгы: ");
-        double result = sun + sun2 + sun3;
-        System.out.println(sun + " + " + sun2 + " + " + sun3 + " = " + result);
-        double result2 = sun * sun2 * sun3;
-        System.out.println(sun + " * " + sun2 + " * " + sun3 + " = " + result2 );
-        double result4 = ((sun + sun2 + sun3)/3);
-        System.out.println( "(" + (sun + " + " + sun2 + " + " + sun3) + " )/3" + " = " + result4);
+        System.out.println("( " + number + " + " + number2 + " + "+number3 +" )" + " / 3" + " = " + summa);
 
 
+
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Введите трехзначные числа: ");
+//        int a = sc.nextInt();
+//        int b = a /100;
+//         int c1 = a/10;
+//        int c = c1 % 10;
+//        int d = a %10;
+//        System.out.println(b + "," + c + "," + d);
+
+//        System.out.println("enter number : ");
+//        Scanner sc = new Scanner(System.in);
+//        int number = sc.nextInt();
+//
+//        if (number >= 0 && number !=0) System.out.println("Pasitive number");
+//        else System.out.println("Negative");
 
 
 
